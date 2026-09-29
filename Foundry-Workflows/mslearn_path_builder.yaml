@@ -1,0 +1,69 @@
+kind: workflow
+trigger:
+  kind: OnConversationStart
+  id: trigger_wf
+  actions:
+    - kind: SetVariable
+      id: action-1764637018534
+      variable: Local.User_Query
+      value: =System.LastMessage
+    - kind: InvokeAzureAgent
+      id: Topic_Builder_Agent
+      agent:
+        name: topic-builder-agent
+      description: First agent in sequential workflow
+      conversationId: =System.ConversationId
+      input:
+        messages: =System.LastMessage
+      output:
+        messages: Local.LatestMessage
+        autoSend: true
+    - kind: InvokeAzureAgent
+      id: MS-Learn-Module-Picker-Agent
+      agent:
+        name: MS-Learn-Module-Picker-Agent
+      conversationId: =System.ConversationId
+      description: Second agent in sequential workflow
+      input:
+        messages: =Local.LatestMessage
+      output:
+        messages: Local.LatestMessage
+        autoSend: true
+    - kind: InvokeAzureAgent
+      id: Study-Plan-Generator-Agent
+      agent:
+        name: Study-Plan-Generator-Agent
+      conversationId: =System.ConversationId
+      description: Third agent in sequential workflow
+      input:
+        messages: =Local.LatestMessage
+      output:
+        messages: Local.LatestMessage
+        autoSend: true
+    - kind: Question
+      variable: Local.User_Approval
+      id: Ask_User
+      entity: StringPrebuiltEntity
+      skipQuestionMode: SkipOnFirstExecutionIfVariableHasValue
+      prompt: Do you approve of this?
+    - kind: ConditionGroup
+      conditions:
+        - condition: =Local.User_Approval = "No"
+          actions:
+            - kind: Question
+              variable: Local.User_Query
+              id: action-1764635898472
+              entity: StringPrebuiltEntity
+              skipQuestionMode: SkipOnFirstExecutionIfVariableHasValue
+              prompt: Please tell us what you would like to change
+            - kind: GotoAction
+              actionId: Topic_Builder_Agent
+              id: action-1764636328539
+          id: if-action-1764635304614-0
+      id: action-1764635304614
+      elseActions: []
+    - kind: EndConversation
+      id: action-1764633021157
+id: ""
+name: ms-learn-path-builder
+description: ""
