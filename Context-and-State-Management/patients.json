@@ -1,0 +1,115 @@
+[
+    {
+        "id": "PAT-1001",
+        "patientId": "PAT-1001",
+        "profile": {
+            "name": "Aarav Sharma",
+            "age": 52,
+            "sex": "Male"
+        },
+        "conditions": [
+            {
+                "condition": "Hypertension",
+                "status": "active",
+                "diagnosed": "2022-06-14"
+            },
+            {
+                "condition": "Type 2 Diabetes",
+                "status": "active",
+                "diagnosed": "2024-01-18"
+            }
+        ],
+        "medications": [
+            {
+                "name": "Metformin",
+                "dose": "500 mg",
+                "frequency": "twice daily"
+            },
+            {
+                "name": "Amlodipine",
+                "dose": "5 mg",
+                "frequency": "once daily"
+            }
+        ],
+        "allergies": [
+            "Penicillin"
+        ],
+        "recentVitals": {
+            "bloodPressure": "138/86 mmHg",
+            "heartRate": "76 bpm",
+            "weight": "82 kg"
+        },
+        "recentLabs": {
+            "HbA1c": "7.2%",
+            "fastingGlucose": "142 mg/dL"
+        }
+    },
+    {
+        "id": "PAT-1002",
+        "patientId": "PAT-1002",
+        "profile": {
+            "name": "Meera Patel",
+            "age": 34,
+            "sex": "Female"
+        },
+        "conditions": [
+            {
+                "condition": "Asthma",
+                "status": "active",
+                "diagnosed": "2018-03-10"
+            }
+        ],
+        "medications": [
+            {
+                "name": "Budesonide inhaler",
+                "dose": "200 mcg",
+                "frequency": "twice daily"
+            }
+        ],
+        "allergies": [
+            "None documented"
+        ],
+        "recentVitals": {
+            "bloodPressure": "116/74 mmHg",
+            "heartRate": "72 bpm",
+            "oxygenSaturation": "98%"
+        },
+        "recentLabs": {}
+    },
+    {
+        "id": "PAT-1003",
+        "patientId": "PAT-1003",
+        "profile": {
+            "name": "Rohan Mehta",
+            "age": 67,
+            "sex": "Male"
+        },
+        "conditions": [
+            {
+                "condition": "Hyperlipidemia",
+                "status": "active",
+                "diagnosed": "2020-09-21"
+            }
+        ],
+        "medications": [
+            {
+                "name": "Atorvastatin",
+                "dose": "20 mg",
+                "frequency": "once daily"
+            }
+        ],
+        "allergies": [
+            "Sulfonamides"
+        ],
+        "recentVitals": {
+            "bloodPressure": "126/78 mmHg",
+            "heartRate": "68 bpm",
+            "weight": "74 kg"
+        },
+        "recentLabs": {
+            "LDL": "112 mg/dL",
+            "HDL": "48 mg/dL",
+            "Triglycerides": "156 mg/dL"
+        }
+    }
+]
