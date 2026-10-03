@@ -1,0 +1,110 @@
+[
+    {
+        "agentId": "market-research-agent",
+        "name": "Market Research Agent",
+        "category": "research",
+        "endpointUrl": "https://market-research.contoso.com",
+        "capabilities": [
+            "market-research",
+            "industry-analysis",
+            "market-trends"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "agentId": "competitor-research-agent",
+        "name": "Competitor Research Agent",
+        "category": "research",
+        "endpointUrl": "https://competitor-research.contoso.com",
+        "capabilities": [
+            "competitor-analysis",
+            "company-research",
+            "competitive-intelligence"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "agentId": "technology-research-agent",
+        "name": "Technology Research Agent",
+        "category": "research",
+        "endpointUrl": "https://technology-research.contoso.com",
+        "capabilities": [
+            "technology-research",
+            "technology-trends",
+            "product-research"
+        ],
+        "version": "1.1.0"
+    },
+    {
+        "agentId": "invoice-agent",
+        "name": "Invoice Analysis Agent",
+        "category": "document",
+        "endpointUrl": "https://invoice-agent.contoso.com",
+        "capabilities": [
+            "invoice-extraction",
+            "invoice-analysis",
+            "document-analysis"
+        ],
+        "version": "1.2.0"
+    },
+    {
+        "agentId": "contract-agent",
+        "name": "Contract Analysis Agent",
+        "category": "document",
+        "endpointUrl": "https://contract-agent.contoso.com",
+        "capabilities": [
+            "contract-analysis",
+            "clause-extraction",
+            "document-analysis"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "agentId": "financial-document-agent",
+        "name": "Financial Document Agent",
+        "category": "document",
+        "endpointUrl": "https://financial-doc.contoso.com",
+        "capabilities": [
+            "financial-document-analysis",
+            "financial-data-extraction",
+            "document-analysis"
+        ],
+        "version": "2.0.0"
+    },
+    {
+        "agentId": "financial-analysis-agent",
+        "name": "Financial Analysis Agent",
+        "category": "analytics",
+        "endpointUrl": "https://financial-analysis.contoso.com",
+        "capabilities": [
+            "financial-analysis",
+            "financial-comparison",
+            "ratio-analysis"
+        ],
+        "version": "1.3.0"
+    },
+    {
+        "agentId": "risk-analysis-agent",
+        "name": "Risk Analysis Agent",
+        "category": "analytics",
+        "endpointUrl": "https://risk-analysis.contoso.com",
+        "capabilities": [
+            "risk-analysis",
+            "financial-risk",
+            "commercial-risk"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "agentId": "forecasting-agent",
+        "name": "Forecasting Agent",
+        "category": "analytics",
+        "endpointUrl": "https://forecasting.contoso.com",
+        "capabilities": [
+            "forecasting",
+            "trend-analysis",
+            "predictive-analysis"
+        ],
+        "version": "1.4.0"
+    }
+]
