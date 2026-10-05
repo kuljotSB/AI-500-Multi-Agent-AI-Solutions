@@ -1,0 +1,372 @@
+[
+  {
+    "id": "doc001",
+    "title": "Azure Openai - GPT deployments",
+    "category": "azure-openai",
+    "difficulty": "intermediate",
+    "service": "Azure Openai",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "A comprehensive guide to provisioning and managing Azure OpenAI GPT-4o and GPT-3.5-Turbo deployments. It covers semantic routing, setting up custom regional endpoints to handle token limits, configuring Provisioned Throughput Units (PTU) for predictable low-latency scaling, and adjusting temperature or top_p hyper-parameters for predictable deterministic text generation in enterprise applications. Reference: doc001."
+  },
+  {
+    "id": "doc002",
+    "title": "Azure Ai Search - Indexes",
+    "category": "azure-ai-search",
+    "difficulty": "advanced",
+    "service": "Azure Ai Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Deep dive into building high-performance search indexes in Azure AI Search. Learn how to configure custom analyzers, define complex tokenizers, map structural database fields to index schemas, and utilize inverted indexes for traditional keyword matching alongside vector definitions. This document outlines field attributes such as retrievable, searchable, filterable, and facetable. Reference: doc002."
+  },
+  {
+    "id": "doc003",
+    "title": "Azure Ai Foundry - Projects",
+    "category": "azure-ai-foundry",
+    "difficulty": "intermediate",
+    "service": "Azure Ai Foundry",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "Discover how to organize and collaborate on generative AI assets using Projects inside Azure AI Foundry. This technical blueprint shows how to group models, datasets, connection strings, prompt flow templates, and deployment endpoints under a single security boundary using Azure Role-Based Access Control (RBAC) and workspace isolation patterns. Reference: doc003."
+  },
+  {
+    "id": "doc004",
+    "title": "Azure Document Intelligence - Invoices",
+    "category": "azure-document-intelligence",
+    "difficulty": "advanced",
+    "service": "Azure Document Intelligence",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "How to train and deploy prebuilt or neural models for financial text extraction using Azure Document Intelligence. This specialized manual details the extraction of complex invoice fields including line items, vendor details, tax breakdowns, remittance addresses, and total payment amounts from noisy, low-resolution PDFs and scanned TIFF receipts. Reference: doc004."
+  },
+  {
+    "id": "doc005",
+    "title": "Azure Ai Language - Sentiment analysis",
+    "category": "azure-ai-language",
+    "difficulty": "beginner",
+    "service": "Azure Ai Language",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "An entry-level overview of using the Azure AI Language service to execute real-time sentiment analysis and opinion mining. Learn how to parse customer support chat transcripts, extract positive, negative, or neutral sentiment scores at both the sentence and document levels, and identify target entities using pre-trained NLP pipelines. Reference: doc005."
+  },
+  {
+    "id": "doc006",
+    "title": "Azure Ai Vision - OCR",
+    "category": "azure-ai-vision",
+    "difficulty": "intermediate",
+    "service": "Azure Ai Vision",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "Implementation guide for Optical Character Recognition (OCR) engines inside Azure AI Vision. Understand how to convert complex images, handwriting, whiteboard sessions, and multi-lingual street signs into machine-readable digital text streams. Includes tuning parameters for bounding box coordinates, orientation correction, and confidence thresholds. Reference: doc006."
+  },
+  {
+    "id": "doc007",
+    "title": "Agent Framework - Tool calling",
+    "category": "agent-framework",
+    "difficulty": "advanced",
+    "service": "Agent Framework",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Advanced architecting patterns for LLM agent framework tool calling and function execution loops. Explains how an intelligent assistant can reason about an incoming prompt, dynamically choose an external REST API tool, output a structured JSON schema arguments payload, and ingest the external tool response back into its execution context. Reference: doc007."
+  },
+  {
+    "id": "doc008",
+    "title": "Prompt Flow - Flow creation",
+    "category": "prompt-flow",
+    "difficulty": "advanced",
+    "service": "Prompt Flow",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "A detailed technical workflow illustrating flow creation within Azure Prompt Flow. Learn how to visually orchestrate and link Large Language Models (LLMs), python scripts, prompt variants, and lookup tools into an executable directed acyclic graph (DAG) tailored for stable, low-latency enterprise production applications. Reference: doc008."
+  },
+  {
+    "id": "doc009",
+    "title": "Rag - Chunking",
+    "category": "rag",
+    "difficulty": "beginner",
+    "service": "Rag",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "A beginner-friendly breakdown of different text chunking strategies for Retrieval-Augmented Generation (RAG) applications. Compares fixed-size text splitting, overlapping semantic chunking, paragraph-based token division, and Markdown-aware document segmenting to optimize vector generation and maintain contextual token continuity. Reference: doc009."
+  },
+  {
+    "id": "doc010",
+    "title": "Vector Search - HNSW",
+    "category": "vector-search",
+    "difficulty": "intermediate",
+    "service": "Vector Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Explores the internal Mechanics of Hierarchical Navigable Small World (HNSW) graphs for fast vector search indices. This paper outlines how multi-layer graph skip-lists are constructed to execute approximate nearest neighbor queries, highlighting the critical tradeoffs between search recall accuracy, indexing latency, and RAM footprints. Reference: doc010."
+  },
+  {
+    "id": "doc011",
+    "title": "Azure Openai - Embeddings",
+    "category": "azure-openai",
+    "difficulty": "intermediate",
+    "service": "Azure Openai",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "A developer handbook for generating dense high-dimensional vector embeddings using Azure OpenAI text-embedding-3-small and text-embedding-3-large models. Discusses input token limits, handling 1536-dimensional array storage structures, and reducing dimensionality vectors while minimizing information loss during retrieval tasks. Reference: doc011."
+  },
+  {
+    "id": "doc012",
+    "title": "Azure Ai Search - Semantic ranker",
+    "category": "azure-ai-search",
+    "difficulty": "intermediate",
+    "service": "Azure Ai Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "How to optimize search precision by integrating Azure AI Search's deep learning Semantic Ranker. This article walks through the secondary L2 ranking phase, where a state-of-the-art transformer model recalculates relevance scores on the top 50 initial keyword or vector search results, extracting meaningful semantic highlights and answers. Reference: doc012."
+  },
+  {
+    "id": "doc013",
+    "title": "Azure Ai Foundry - Model catalog",
+    "category": "azure-ai-foundry",
+    "difficulty": "advanced",
+    "service": "Azure Ai Foundry",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "An enterprise architectural overview of the Azure AI Foundry Model Catalog. Learn how to explore, compare, evaluate, and test hundreds of open-source and proprietary foundation models including Meta Llama, Mistral, Cohere, and Microsoft Phi, deploying them as serverless pay-as-you-go APIs or dedicated hosting nodes. Reference: doc013."
+  },
+  {
+    "id": "doc014",
+    "title": "Azure Document Intelligence - Receipts",
+    "category": "azure-document-intelligence",
+    "difficulty": "advanced",
+    "service": "Azure Document Intelligence",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "Deploying the prebuilt Receipt analysis model within Azure Document Intelligence. This code-heavy resource demonstrates extracting transaction dates, merchant names, individual line-item prices, tax amounts, payment methods, and geographic locations from skewed thermal papers, mobile device photographs, and PDF logs. Reference: doc014."
+  },
+  {
+    "id": "doc015",
+    "title": "Azure Ai Language - NER",
+    "category": "azure-ai-language",
+    "difficulty": "advanced",
+    "service": "Azure Ai Language",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Implementing Named Entity Recognition (NER) to locate, identify, and categorize key structural entities in unstructured text. Learn how to automatically tag people, organizations, dates, locations, financial quantities, and alphanumeric product SKU codes from raw text databases or customer CRM files using pretrained deep learning. Reference: doc015."
+  },
+  {
+    "id": "doc016",
+    "title": "Azure Ai Vision - Image captioning",
+    "category": "azure-ai-vision",
+    "difficulty": "advanced",
+    "service": "Azure Ai Vision",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Leveraging advanced Vision-Language multi-modal models within Azure AI Vision to generate human-like descriptive image captioning and visual analysis. Includes implementation steps for automatic alt-text asset generation, accessibility compliance testing, and scene classification workflows for multi-media marketing libraries. Reference: doc016."
+  },
+  {
+    "id": "doc017",
+    "title": "Agent Framework - Memory",
+    "category": "agent-framework",
+    "difficulty": "beginner",
+    "service": "Agent Framework",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "A beginner's guide to managing conversational state and semantic history using Agent Framework Memory structures. Explains how to implement sliding window short-term memory buffers alongside persistent long-term database storage blocks to track user context, historical query intents, and agent execution plans over extended periods. Reference: doc017."
+  },
+  {
+    "id": "doc018",
+    "title": "Prompt Flow - Tracing",
+    "category": "prompt-flow",
+    "difficulty": "advanced",
+    "service": "Prompt Flow",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "Deep operational logging and telemetry analysis using Prompt Flow Tracing utilities. Provides developer workflows for diagnosing slow execution nodes, examining raw JSON payloads traveling between LLM chains, monitoring internal API token consumption metrics, and isolating runtime exceptions within custom Python tool configurations. Reference: doc018."
+  },
+  {
+    "id": "doc019",
+    "title": "Rag - Embeddings",
+    "category": "rag",
+    "difficulty": "intermediate",
+    "service": "Rag",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "An operational manual on optimizing the performance of semantic embedding pipelines in Retrieval-Augmented Generation (RAG). Discusses how vectorizing chunks using models like OpenAI text-embedding-3 ensures that contextual text fragments align correctly within vector spaces for subsequent similarity matching and injection phases. Reference: doc019."
+  },
+  {
+    "id": "doc020",
+    "title": "Vector Search - Cosine similarity",
+    "category": "vector-search",
+    "difficulty": "intermediate",
+    "service": "Vector Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "Mathematical concepts and practical applications of Cosine Similarity calculations within vector databases. This document explains how computing the cosine of the angle between two high-dimensional dense vector arrays measures structural semantic similarity, ignoring variations in document text token length. Reference: doc020."
+  },
+  {
+    "id": "doc021",
+    "title": "Azure Openai - Content filtering",
+    "category": "azure-openai",
+    "difficulty": "advanced",
+    "service": "Azure Openai",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Enterprise governance guide for configuring native Content Filtering models inside Azure OpenAI. Learn to set up severity thresholds (low, medium, high) for blocking harmful text generations, identifying prompt injection attempts, managing custom blocklists, and complying with responsible AI engineering mandates. Reference: doc021."
+  },
+  {
+    "id": "doc022",
+    "title": "Azure Ai Search - Hybrid search",
+    "category": "azure-ai-search",
+    "difficulty": "beginner",
+    "service": "Azure Ai Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "A high-level introductory guide to combining keyword search (BM25 algorithms) and dense vector search to build Hybrid Search indexing solutions. Details how Reciprocal Rank Fusion (RRF) scores blend traditional vocabulary matches with high-dimensional conceptual retrieval outputs for superior real-world search precision. Reference: doc022."
+  },
+  {
+    "id": "doc023",
+    "title": "Azure Ai Foundry - Evaluations",
+    "category": "azure-ai-foundry",
+    "difficulty": "beginner",
+    "service": "Azure Ai Foundry",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "A step-by-step introduction to computing model evaluation metrics inside Azure AI Foundry. Demonstrates how to systematically run automated ground-truth validation tests to score generative AI systems against core quality indicators like Coherence, Fluency, Relevance, Groundedness, and overall system Hallucination rates. Reference: doc023."
+  },
+  {
+    "id": "doc024",
+    "title": "Azure Document Intelligence - Custom extraction",
+    "category": "azure-document-intelligence",
+    "difficulty": "beginner",
+    "service": "Azure Document Intelligence",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "An entry-level training manual on building Custom Extraction models within Azure Document Intelligence. Learn how to upload a small dataset of 5 sample forms, manually tag specialized custom key-value pairs, train a custom neural parsing engine, and ingest unstructured documents into organized structured JSON files. Reference: doc024."
+  },
+  {
+    "id": "doc025",
+    "title": "Azure Ai Language - Summarization",
+    "category": "azure-ai-language",
+    "difficulty": "intermediate",
+    "service": "Azure Ai Language",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "Using the Azure AI Language service to execute abstractive or extractive text summarization workloads. Explains parameters for processing high-volume corporate board minutes, lengthy legal contracts, or customer support transcripts into short, high-fidelity bullet points or structured narrative text abstracts. Reference: doc025."
+  },
+  {
+    "id": "doc026",
+    "title": "Azure Ai Vision - Object detection",
+    "category": "azure-ai-vision",
+    "difficulty": "beginner",
+    "service": "Azure Ai Vision",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "An educational primer on using Azure AI Vision to identify and locate hundreds of distinct objects within graphic frames. Walk through simple API calls that return localized bounding box coordinates and classification tags for items like machinery parts, vehicles, and consumer goods in image catalogs. Reference: doc026."
+  },
+  {
+    "id": "doc027",
+    "title": "Agent Framework - Planning",
+    "category": "agent-framework",
+    "difficulty": "beginner",
+    "service": "Agent Framework",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "Introduction to planning algorithms and reasoning strategies for autonomous AI execution frameworks. Explains basic setups for Chain-of-Thought (CoT), Tree-of-Thoughts (ToT), and ReAct architectures, guiding how an agent splits complex enterprise user requests down into sequential, verifiable step-by-step subtasks. Reference: doc027."
+  },
+  {
+    "id": "doc028",
+    "title": "Prompt Flow - Evaluation",
+    "category": "prompt-flow",
+    "difficulty": "beginner",
+    "service": "Prompt Flow",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "A beginner's workspace guide for testing prompt variations using integrated evaluation flows. Learn how to feed batch testing datasets into a prompt pipeline, select built-in performance evaluators, and view side-by-side metric charts to verify if system prompt variations yield better target outputs. Reference: doc028."
+  },
+  {
+    "id": "doc029",
+    "title": "Rag - Retrieval",
+    "category": "rag",
+    "difficulty": "advanced",
+    "service": "Rag",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "Advanced architectural techniques for engineering the document Retrieval stage of RAG pipelines. Includes implementing multi-vector retrieval strategies, parent-child document mappings, query expansion through LLM rewriting, and deploying cross-encoder re-ranking pipelines to deliver contextual document snippets to generators. Reference: doc029."
+  },
+  {
+    "id": "doc030",
+    "title": "Vector Search - KNN queries",
+    "category": "vector-search",
+    "difficulty": "advanced",
+    "service": "Vector Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "Deep mathematical and technical analysis of executing exact K-Nearest Neighbor (KNN) queries in high-dimensional vector spaces. This document analyzes computational complexity constraints, full-brute-force index scanning, distance metrics parameters, and optimization patterns required for ultra-precise similarity retrieval. Reference: doc030."
+  },
+  {
+    "id": "doc031",
+    "title": "Azure Openai - Rate limits",
+    "category": "azure-openai",
+    "difficulty": "intermediate",
+    "service": "Azure Openai",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "A guide to understanding and managing Azure OpenAI quota allocations and capacity rate limits. Details how to handle HTTP 429 'Too Many Requests' exceptions, calculate Tokens-Per-Minute (TPM) and Requests-Per-Minute (RPM) limits across different AI models, and design fault-tolerant client retry loops. Reference: doc031."
+  },
+  {
+    "id": "doc032",
+    "title": "Azure Ai Search - Vector search",
+    "category": "azure-ai-search",
+    "difficulty": "beginner",
+    "service": "Azure Ai Search",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "An introductory manual for configuring and executing vector search commands within native Azure AI Search indices. Learn how to map embedding fields, register vector configuration metrics (like Cosine, Dot Product, or Euclidean distance), and build vector-based filtering queries using standard SDK kits. Reference: doc032."
+  },
+  {
+    "id": "doc033",
+    "title": "Azure Ai Foundry - Deployments",
+    "category": "azure-ai-foundry",
+    "difficulty": "beginner",
+    "service": "Azure Ai Foundry",
+    "author": "Microsoft Learn",
+    "publishedYear": 2025,
+    "content": "A beginner-friendly exploration of deployment orchestration within Azure AI Foundry. Demonstrates how to select a tailored model from the curated library repository and quickly spin up a secure, autoscaling real-time inference web endpoint with zero infrastructure management required by the developer. Reference: doc033."
+  },
+  {
+    "id": "doc034",
+    "title": "Azure Document Intelligence - Tables",
+    "category": "azure-document-intelligence",
+    "difficulty": "advanced",
+    "service": "Azure Document Intelligence",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "Advanced strategies for extracting complex layout structures and nested tabular matrices using Azure Document Intelligence. Details how the model parses cells spanning multiple columns or rows, extracts row/column headers, and converts unstructured layouts into highly structured data arrays. Reference: doc034."
+  },
+  {
+    "id": "doc035",
+    "title": "Azure Ai Language - Classification",
+    "category": "azure-ai-language",
+    "difficulty": "advanced",
+    "service": "Azure Ai Language",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "An operational guide to executing custom text classification pipelines within Azure AI Language. Walks through training custom multi-label text categorizers using labeled training documents to automate high-volume support ticket tagging, department routing, and semantic archival compliance steps. Reference: doc035."
+  },
+  {
+    "id": "doc036",
+    "title": "Azure Ai Vision - Image analysis",
+    "category": "azure-ai-vision",
+    "difficulty": "intermediate",
+    "service": "Azure Ai Vision",
+    "author": "Microsoft Learn",
+    "publishedYear": 2024,
+    "content": "Developer workflows for parsing visual media files using the Azure AI Vision Image Analysis engine. Learn how to extract rich multi-faceted insights including descriptive tags, dominant background colors, human face locations, object categories, adult content filtering flags, and spatial geometric metadata. Reference: doc036."
+  },
+  {
+    "id": "doc037",
+    "title": "Agent Framework - Multi-agent workflows",
+    "category": "agent-framework",
+    "difficulty": "advanced",
+    "service": "Agent Framework",
+    "author": "Microsoft Learn",
+    "publishedYear": 2026,
+    "content": "Advanced synchronization and message-passing orchestrations within complex Multi-Agent Workflows. This engineering guide highlights patterns for conversation orchestration, supervisor-led team topologies, peer-to-peer task handoffs, conflict resolution loops, and shared semantic memory states. Reference: doc037."
+  }
+]
