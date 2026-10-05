@@ -1,0 +1,26 @@
+Customer Support Call Recording
+
+Customer ID: CUST-1001
+Customer: Maya Patel
+
+Agent: Thank you for calling Contoso Electronics support. How can I help you today?
+
+Customer: Hi. I'm calling about my ContosoBook Pro. The battery has been draining very quickly for the last couple of weeks. I use the laptop mostly for work and video meetings.
+
+Agent: Approximately how long does the battery last now?
+
+Customer: Around two hours. It used to last almost seven. I already tried lowering the brightness and disabling background applications.
+
+Agent: Have you installed any major updates recently?
+
+Customer: Yes, there was a system update around three weeks ago. I think the battery issue started shortly after that.
+
+Agent: Would you like us to continue troubleshooting over the phone?
+
+Customer: Email is actually better for me. I am usually in meetings during the day, so please email me rather than calling unless it is urgent.
+
+Agent: Anything else I should know?
+
+Customer: I travel for work every Monday and Tuesday, so I really need the laptop working reliably before then.
+
+Agent: We'll continue investigating and send the next troubleshooting steps by email.

@@ -1,0 +1,26 @@
+Customer Support Call Recording
+
+Customer ID: CUST-1002
+Customer: Daniel Brooks
+
+Agent: Thank you for contacting Contoso Electronics. What can I help you with?
+
+Customer: My wireless headphones keep disconnecting from my phone. It happens several times during my morning run.
+
+Agent: Which phone are you using?
+
+Customer: An Android phone. I've already removed the headphones from Bluetooth settings, paired them again, and reset the headphones twice.
+
+Agent: Did resetting them improve the issue?
+
+Customer: No. The disconnections still happen. I had a similar Bluetooth issue with my previous Contoso headphones last year and they were eventually replaced.
+
+Agent: Would you like us to start another replacement request?
+
+Customer: I'd rather troubleshoot first. I don't want another replacement unless we know the hardware is actually faulty.
+
+Agent: Anything else?
+
+Customer: If you send instructions, please keep them in email. I prefer having written steps that I can follow later.
+
+Agent: I'll document the troubleshooting you've already completed so you aren't asked to repeat it.

@@ -1,0 +1,22 @@
+Customer Support Call Recording
+
+Customer ID: CUST-1003
+Customer: Sofia Martinez
+
+Agent: Welcome to Contoso Electronics support. How can I assist?
+
+Customer: I'm trying to understand why I was charged for expedited shipping on order ORD-88421. I'm a Premium Plus member and I thought expedited shipping was included.
+
+Agent: Was this order placed through our website?
+
+Customer: Yes. I order from you pretty often for my design studio. This is actually the second time I've seen an unexpected shipping charge this year.
+
+Agent: I understand why that would be frustrating.
+
+Customer: The previous agent refunded the first one. I'm not mainly concerned about the amount—I want to know why it keeps happening.
+
+Agent: I'll investigate the membership and order settings.
+
+Customer: For billing issues I prefer speaking to a person rather than using the chatbot. For product questions the chatbot is fine, but anything involving charges or refunds I'd rather have a human handle it.
+
+Agent: I'll note that preference and review the shipping charge.

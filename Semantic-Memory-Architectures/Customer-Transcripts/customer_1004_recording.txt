@@ -1,0 +1,24 @@
+Customer Support Call Recording
+
+Customer ID: CUST-1004
+Customer: Ethan Williams
+
+Agent: Thank you for calling Contoso Electronics support.
+
+Customer: My SmartHome Hub stopped controlling the living-room lights yesterday evening. Voice commands work for my thermostat, but the lights show as unavailable.
+
+Agent: Have you restarted the hub?
+
+Customer: Yes. I restarted the hub and the router. I also removed one of the bulbs and added it again, but that didn't fix the other lights.
+
+Agent: Was there any change to your network recently?
+
+Customer: I replaced my Wi-Fi router on Saturday. Everything seemed fine for a day, then the lights stopped responding.
+
+Agent: That could be relevant.
+
+Customer: Please don't ask me to factory-reset the entire smart-home setup unless it's absolutely necessary. I have more than thirty devices configured and rebuilding everything would take hours.
+
+Agent: We'll try less disruptive troubleshooting first.
+
+Customer: Great. Evenings after 6 PM are the best time to contact me because that's when I'm home and can test the devices.
