@@ -1,0 +1,5 @@
+{"ticket": "I changed my password this morning and now I cannot log into my corporate account.", "output": "Category: Authentication\nPriority: High", "expected_category": "Authentication", "expected_priority": "High"}
+{"ticket": "The office Wi-Fi is unavailable for everyone on the third floor and nobody can access internal applications.", "output": "Category: Network\nPriority: High", "expected_category": "Network", "expected_priority": "Critical"}
+{"ticket": "Microsoft Excel crashes whenever I try to open one particular spreadsheet. Other spreadsheets work normally.", "output": "Category: Software\nPriority: Medium", "expected_category": "Software", "expected_priority": "Medium"}
+{"ticket": "I received an email asking me to enter my company password on an unfamiliar website.", "output": "Category: Security\nPriority: High", "expected_category": "Security", "expected_priority": "High"}
+{"ticket": "My second monitor occasionally flickers, but I can continue working normally.", "output": "Category: Hardware\nPriority: Low", "expected_category": "Hardware", "expected_priority": "Low"}
